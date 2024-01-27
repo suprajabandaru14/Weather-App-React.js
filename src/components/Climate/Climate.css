@@ -1,0 +1,90 @@
+.climate{
+    display:grid;
+    place-items: center;
+    font-size:1.5rem;
+    font-weight: bold;
+   
+}
+
+.climate-details{
+    margin-top:25px;
+ 
+}
+.invalid{
+    margin-top:2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1rem;
+    font-weight:bold;
+    padding:2rem 20rem;
+    color:#980b0b;
+    gap:15px;
+   
+}
+
+.location-name{
+    display:grid;
+    place-items: center; 
+}
+
+@media screen and (max-width: 1024px){
+    .climate h3{
+        font-size:4rem;
+        margin-bottom:0;
+    }
+    .invalid{
+        margin-top:1.5rem;
+        padding:1rem;
+    }
+    .invalid h1{
+        font-size:3rem;
+        width:504px;
+    }
+    .location-name h1{
+        font-size:3rem;
+        margin-bottom:0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .climate h3{
+        font-size:2.5rem;
+        margin-bottom:0;
+    }
+    .invalid{
+        margin-top:1.5rem;
+        font-size:0.8rem;
+        padding:1rem;
+    }
+    .invalid h1{
+        font-size:1.4rem;
+        width:251px;
+    }
+    .location-name h1{
+        font-size:1.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+        .climate h3{
+            font-size:1.5rem;
+            margin-bottom:0;
+        }
+        .invalid{
+            margin-top:1.5rem;
+            padding:1rem;
+        }
+        .invalid h1{
+            font-size:1rem;
+            width:235px;
+        }
+        .location-name h1{
+            font-size:1.3rem;
+        }
+}
+
+
+
+
+

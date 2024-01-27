@@ -1,0 +1,120 @@
+body{
+    box-sizing: border-box;
+    background: radial-gradient(ellipse at 20% 100%, rgba(73, 109, 200, 1) 0%, rgba(85, 240, 228, 1) 71%);
+    height:100vh; 
+    color:rgb(11, 7, 65);
+  
+}
+
+
+.weather-container{
+    padding:0rem 2rem;
+}
+.input-search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-search input{
+    width:400px;
+    padding:1rem;
+    box-shadow: 2px 2px 5px black;
+    border-radius:25px;
+    background-color:transparent;
+    outline:none;
+    border:none;
+    font-size:1rem;
+    color:rgba(76, 114, 115, 1);
+    font-weight:bold;
+    margin-right:20px;
+}
+
+.input-search button{
+    padding:1.01rem 1.8rem;
+    background-color:transparent;
+    box-shadow: 2px 2px 5px black;
+    border-radius:25px;
+    border:none;
+    color: rgba(76, 114, 115, 1);
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.app-name{
+    display:grid;
+    place-items: center;
+    font-size:2.7rem;
+    background: linear-gradient(90deg, rgba(76, 114, 115, 1) 0%, rgba(4, 20, 33, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+
+@media screen and (max-width: 1024px){
+    .app-name{
+        font-size:4.2rem;
+    }
+    .weather-container{
+        padding:2rem 2rem;
+    }
+    .input-search{
+        margin-top:3.2rem;
+    }
+    .input-search input{
+        width:532px;
+        padding:1.2rem;
+        font-size:1.5rem;
+        font-weight:bold;
+        border-radius:35px;
+    }
+    .input-search button{
+        padding:1.2rem 2.5rem;
+        font-size:1.5rem;
+        border-radius: 35px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .app-name{
+        font-size:2.2rem;
+    }
+    .weather-container{
+        padding:2rem 2rem;
+    }
+    .input-search{
+        margin-top:3.2rem;
+    }
+    .input-search input{
+        width:300px;
+        padding:0.8rem;
+        font-size:1rem;
+        font-weight:bold;
+    }
+    .input-search button{
+        padding:0.9rem 1.3rem;
+        font-size:1rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    .weather-container{
+        padding:1rem 2rem;
+    }
+    .app-name{
+        font-size: 2rem;
+    }
+    .input-search input{
+        width:220px;
+        padding:0.6rem;
+        font-size:0.8rem;
+        font-weight:bold;
+    }
+    .input-search button{
+        padding:0.65rem 1rem;
+        font-size:0.8rem;
+    }
+}
+
+

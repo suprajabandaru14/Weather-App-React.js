@@ -1,0 +1,146 @@
+.temp-details{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.actual-temp{
+    font-weight:bold;
+    font-size:2rem;
+}
+.temp-info{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction:column;
+    gap:10px;
+  
+}
+.temp-info-item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+}
+.temp-info-item h3{
+    margin:0;
+}
+.climate-img img{
+    width:180px
+}
+.temp-info-item img{
+    width:25px;
+}
+.temp-info-item h3{
+    font-size:1.2rem;
+}
+.temp-info-item img{
+    width:25px;
+}
+
+@media  screen and (max-width:1024px) {
+    .climate-img img{
+        margin:0;
+        padding:0;
+        width:345px;
+    }
+    .actual-temp{
+        font-size:2.8rem;
+    }
+    .temp-details{
+        flex-direction: column;
+    }
+    .temp-info{
+        flex-direction: row;
+        gap:22px;
+    }
+    .temp-info-item{
+        gap:2px;
+    }
+    .temp-info-item h3{
+        font-size:2.1rem;
+    }
+    .temp-details{
+        margin-top:0;
+    }
+    .actual-temp h2{
+        margin-top:0;
+    }
+    .temp-info-item img{
+        width:40px;
+    }
+    .temp-info{
+        margin-top:20px;
+    }
+}
+
+
+@media  screen and (max-width:600px) {
+    .climate-img img{
+        margin:0;
+        padding:0;
+        width:211px;
+    }
+    .actual-temp{
+        font-size:1.8rem;
+    }
+    .temp-details{
+        flex-direction: column;
+    }
+    .temp-info{
+        flex-direction: row;
+    }
+    .temp-info-item{
+        gap:2px;
+    }
+    .temp-info-item h3{
+        font-size:1.1rem;
+    }
+    .temp-details{
+        margin-top:0;
+    }
+    .actual-temp h2{
+        margin-top:0;
+    }
+    .temp-info-item img{
+        width:18px;
+    }
+    .temp-info{
+        margin-top:20px;
+    }
+}
+
+@media  screen and (max-width:400px) {
+    .climate-img img{
+        margin:0;
+        padding:0;
+        width:130px;
+    }
+    .actual-temp{
+        font-size:1.3rem;
+    }
+    .temp-details{
+        flex-direction: column;
+    }
+    .temp-info{
+        flex-direction: row;
+    }
+    .temp-info-item{
+        gap:0px;
+    }
+    .temp-info-item h3{
+        font-size:0.9rem;
+    }
+    .temp-details{
+        margin-top:0;
+    }
+    .actual-temp h2{
+        margin-top:0;
+    }
+    .temp-info-item img{
+        width:15px;
+    }
+    .temp-info{
+        margin-top:30px;
+    }
+
+}

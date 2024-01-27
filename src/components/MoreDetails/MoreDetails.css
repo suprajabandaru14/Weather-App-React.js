@@ -1,0 +1,64 @@
+.sunrise-sunset{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    margin-top:20px;   
+}
+.sub-sunrise-sunset{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+.sub-sunrise-sunset img{
+    width:10px;
+}
+.sub-sunrise-sunset p{
+    font-size:1.3rem;
+    font-weight: bold;
+}
+@media screen and (max-width:1024px) {
+    .sunrise-sunset{
+        margin-top:2rem;
+        gap:57px;
+    }
+    .sub-sunrise-sunset{
+        gap:5px;
+    }
+    .sub-sunrise-sunset p{
+        font-size:2.1rem;
+    }
+    .sub-sunrise-sunset img{
+        width:1rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .sunrise-sunset{
+        gap:57px;
+    }
+    .sub-sunrise-sunset{
+        gap:5px;
+    }
+    .sub-sunrise-sunset p{
+        font-size:1.1rem;
+    }
+    .sub-sunrise-sunset img{
+        width:0.7rem;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .sunrise-sunset{
+        gap:57px;
+    }
+    .sub-sunrise-sunset{
+        gap:5px;
+    }
+    .sub-sunrise-sunset p{
+        font-size:1rem;
+    }
+    .sub-sunrise-sunset img{
+        width:0.7rem;
+    }
+}
